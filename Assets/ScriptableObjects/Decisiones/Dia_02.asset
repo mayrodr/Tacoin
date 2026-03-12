@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24cc73d8253d8ae58faaeb36802260d, type: 3}
+  m_Name: Dia_02
+  m_EditorClassIdentifier: Assembly-CSharp::BirriaTycoon.Data.DecisionesDiarias
+  diaNumero: 2
+  decisiones:
+  - id: DIA2_GUARDAR
+    titulo: Guardar en el colchon
+    descripcion: Metes el dinero debajo del colchon.
+    consejo: El dinero sin invertir perde valor con la inflacion.
+    deltaEfectivoNegocio: -200
+    deltaAhorroPersonal: 200
+    deltaCarteraCrypto: 0
+    esDecisionRecomendada: 0
+    icono: {fileID: 0}
